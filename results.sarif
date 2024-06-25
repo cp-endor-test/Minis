@@ -1,0 +1,337 @@
+{
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Js/TicTacToe/package.json"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Js/TicTacToe/package-lock.json"
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "tictactoe@1.0.0 directly depends on @types/node@18.11.2, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency @types/node@18.11.2"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Js/TicTacToe/package.json"
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "Js/TicTacToe/package-lock.json"
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "tictactoe@1.0.0 directly depends on prompt-sync@4.2.0, but the version is not pinned. This may introduce operational and security risk to the software package."
+          },
+          "ruleId": "Unpinned Direct Dependency prompt-sync@4.2.0"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 1
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "An invalid GitHub Personal Access Token secret has been detected"
+          },
+          "ruleId": "GitHub Personal Access Token"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 3
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 9
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "An invalid GitHub Personal Access Token secret has been detected"
+          },
+          "ruleId": "GitHub Personal Access Token"
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "dummysecrets.txt"
+                },
+                "region": {
+                  "startLine": 5
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": "An invalid GitHub Personal Access Token secret has been detected"
+          },
+          "ruleId": "GitHub Personal Access Token"
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "endorctl",
+          "rules": [
+            {
+              "fullDescription": {
+                "text": "Invalid secrets should be audited for suspicious activity and ignored."
+              },
+              "help": {
+                "text": "Inspect any service logs to determine if the exposed secret has been used for suspicious activity.\n\nIf you'd like to ignore this issue add the comment \"endorctl:allow\" to the secret location in your code.\n"
+              },
+              "id": "Invalid GitHub Personal Access Token: ID #c14419",
+              "name": "Invalid GitHub Personal Access Token: ID #c14419",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "POLICY",
+                  "INVALID_SECRET"
+                ]
+              },
+              "shortDescription": {
+                "text": "Invalid GitHub Personal Access Token: ID #c14419"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "Invalid secrets should be audited for suspicious activity and ignored."
+              },
+              "help": {
+                "text": "Inspect any service logs to determine if the exposed secret has been used for suspicious activity.\n\nIf you'd like to ignore this issue add the comment \"endorctl:allow\" to the secret location in your code.\n"
+              },
+              "id": "Invalid GitHub Personal Access Token: ID #88f819",
+              "name": "Invalid GitHub Personal Access Token: ID #88f819",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "POLICY",
+                  "INVALID_SECRET"
+                ]
+              },
+              "shortDescription": {
+                "text": "Invalid GitHub Personal Access Token: ID #88f819"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "Invalid secrets should be audited for suspicious activity and ignored."
+              },
+              "help": {
+                "text": "Inspect any service logs to determine if the exposed secret has been used for suspicious activity.\n\nIf you'd like to ignore this issue add the comment \"endorctl:allow\" to the secret location in your code.\n"
+              },
+              "id": "Invalid GitHub Personal Access Token: ID #93830a",
+              "name": "Invalid GitHub Personal Access Token: ID #93830a",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "POLICY",
+                  "INVALID_SECRET"
+                ]
+              },
+              "shortDescription": {
+                "text": "Invalid GitHub Personal Access Token: ID #93830a"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin @types/node (latest: 20.14.8) to version 18.11.2 (current resolved version), 10.0.3 (higher score), 10.0.2 (higher score), or 10.0.1 (higher score)."
+              },
+              "id": "Unpinned Direct Dependency @types/node@18.11.2",
+              "name": "Unpinned Direct Dependency @types/node@18.11.2",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "TEST"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency @types/node@18.11.2"
+              }
+            },
+            {
+              "fullDescription": {
+                "text": "This package version has not pinned one of its direct dependencies. Dependencies that are not pinned to a specified version decrease the likelihood of build reproducibility and can be unexpectedly updated, which may introduce operational or security issues into your application. Unpinned dependencies expose organizations to the risk of software supply chain attacks where attackers compromise the upstream software dependency and publish a malicious version of the code."
+              },
+              "help": {
+                "text": "Pin prompt-sync (latest: 4.2.0) to version 4.2.0 (current resolved version)."
+              },
+              "id": "Unpinned Direct Dependency prompt-sync@4.2.0",
+              "name": "Unpinned Direct Dependency prompt-sync@4.2.0",
+              "properties": {
+                "security-severity": "0E+00",
+                "tags": [
+                  "DIRECT",
+                  "NORMAL",
+                  "POTENTIALLY_REACHABLE_DEPENDENCY"
+                ]
+              },
+              "shortDescription": {
+                "text": "Unpinned Direct Dependency prompt-sync@4.2.0"
+              }
+            }
+          ],
+          "semanticVersion": "v1.6.339"
+        }
+      }
+    }
+  ],
+  "version": "2.1.0"
+}
