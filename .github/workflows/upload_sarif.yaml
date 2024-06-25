@@ -23,5 +23,4 @@ jobs:
           # Optional category for the results
           # Used to differentiate multiple results for one commit
           category: endorctl-scan-results
-          ref: test-ghaction
-          sha: d0738fd0d534f4bfd64233dde04700a9bd42d6f6
+         
