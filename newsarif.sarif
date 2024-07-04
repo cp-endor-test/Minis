@@ -85,7 +85,7 @@
           "message": {
             "text": "github.com/hashicorp/go-retryablehttp@v0.7.2 has a medium severity vulnerability identified by CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7.. This vulnerability was fixed in version v0.7.7.\ngithub.com/hashicorp/go-retryablehttp@v0.7.2 is a transitive dependency of github.com/Legit-Labs/legitify@main via external direct dependency github.com/xanzy/go-gitlab@v0.83.0."
           },
-          "ruleId": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. This could lead to go-retryablehttp writing sensitive HTTP basic auth credentials to its log file. This vulnerability, CVE-2024-6104, was fixed in go-retryablehttp 0.7.7."
+          "ruleId": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file."
         },
         {
           "locations": [
@@ -3808,7 +3808,7 @@
                 "text": "No newer versions of github.com/xanzy/go-gitlab (current: v0.83.0, latest: v0.105.0) require github.com/hashicorp/go-retryablehttp v0.7.7 or higher. Consider other options to upgrade github.com/hashicorp/go-retryablehttp to v0.7.7 (current: v0.7.2, latest: v0.7.6)."
               },
               "id": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file.",
-              "name": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file.",
+              "name": "CVE-2024-6104: go-retryablehttp prior to 0.7.7 did not sanitize urls when writing them to its log file. abczzzzzzzz",
               "properties": {
                 "security-severity": "6E+00",
                 "tags": [
